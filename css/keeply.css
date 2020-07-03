@@ -18,39 +18,6 @@ body {overflow:hidden;
 
 }
 
-@font-face {
-    font-family: 'Nitti';
-    src: url('../fonts/nitti-reg.eot');
-    src: url('../fonts/nitti-reg.eot') format('embedded-opentype'),
-         url('../fonts/nitti-reg.woff') format('woff'),
-         url('../fonts/nitti-reg.ttf') format('truetype'),
-         url('../fonts/nitti-reg.svg#NittiRegular') format('svg');
-}
-
-
-@font-face {
-    font-family: 'NittiLight';
-    src: url('../fonts/nitti-light.eot');
-    src: url('../fonts/nitti-light.eot') format('embedded-opentype'),
-         url('../fonts/nitti-light.woff') format('woff'),
-         url('../fonts/nitti-light.ttf') format('truetype'),
-         url('../fonts/nitti-light.svg#NittiLight') format('svg');
-}
-
-
-@font-face {
-    font-family: 'NittiBold';
-    src: url('../fonts/nitti-bold.eot');
-    src: url('../fonts/nitti-bold.eot') format('embedded-opentype'),
-         url('../fonts/nitti-bold.woff') format('woff'),
-         url('../fonts/nitti-bold.ttf') format('truetype'),
-         url('../fonts/nitti-bold.svg#NittiBold') format('svg');
-}
-
-
-
-/*h1, h2, h3, h4, h5, h6{text-rendering: geometricPrecision;}*/
-/*p {text-rendering: geometricPrecision;}*/
 
 /* -- -- -- -- MOBILE -- -- -- -- */
 
@@ -62,18 +29,18 @@ body {overflow:hidden;
     padding-right: 1.4em;
     float: left; }}
 
-.mobile-slide-0 { background-color: #73e6bf; padding-top: 50px; padding-bottom: 30px;}
-.mobile-slide-1 { background-color: #ffe099; padding-top: 50px; padding-bottom: 30px;}
-.mobile-slide-2 { background-color: #73cde6; padding-top: 50px; padding-bottom: 30px;}
-.mobile-slide-3 { background-color: #edccff; padding-top: 50px; padding-bottom: 30px;}
-.mobile-slide-4 { background-color: #999999; padding-top: 50px; padding-bottom: 30px;}
+.mobile-slide-0 { background-color: #73e6bf; padding-top: 30px; padding-bottom: 15px;}
+.mobile-slide-1 { background-color: #ffe099; padding-top: 30px; padding-bottom: 15px;}
+.mobile-slide-2 { background-color: #73cde6; padding-top: 30px; padding-bottom: 15px;}
+.mobile-slide-3 { background-color: #edccff; padding-top: 30px; padding-bottom: 15px;}
+.mobile-slide-4 { background-color: #999999; padding-top: 30px; padding-bottom: 15px;}
 
 .mobile-slide-6 { background-color: #333333;}
 
 .mobile-links { background-color: #ede7e2; padding-top: 75px; padding-bottom: 75px;}
 
-.mobile-img {padding-top: 50px; padding-bottom: 30px; width:260px;}
-.mobile-img-safe {padding-top: 50px; padding-bottom: 30px; width:176px;}
+.mobile-img {padding-top: 5px; padding-bottom: 5px; width:260px;}
+.mobile-img-safe {padding-top: 15px; padding-bottom: 10px; width:176px;}
 
 .mobile-logo {
 		width: 30px;
